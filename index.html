@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Responsive Navbar</title>
+</head>
+<body>
+  <!--HEADER-->
+  <header>
+    <!--NAVBAR-->
+    <nav>
+      <a href="#" class="site-logo">
+        <span>A</span>
+      </a>
+      <div class="links">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="hamburger-menu">
+        <div class="bar"></div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!--SECTIONS-->
+    <!--HOME-->
+    <section id="home" class="active">
+      <div class="hero-container">
+        <div class="text-animation">
+          <h1>Hi, my name is Alfredo.</h1>
+          <p class="subtitle">I'm a musician and a developer.</p>
+        </div>
+        <div class="hero-img outer">
+          <div class="hero-img inner">
+            <img src="./img/AuditorioPeq.png" alt="picture of Alfredo">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--ABOUT ME-->
+    <section id="about" class="inactive">
+      <div class="title">
+        <p>More</p>
+        <h1>About Me</h1>
+      </div>
+      <div class="content">
+        <div class="outer">
+          <div class="inner">
+            <img src="./img/CEREMONIA-25.jpg" alt="Alfredo">
+          </div>
+        </div>
+        <div class="description">
+          <p>
+            Hello! My name is Alfredo. I've been learning web development for almost 
+            a year now and I wanted to create this website to be able to put into practice what I 
+            have learned in this time and also to be able to show some of the projects that 
+            I have been working on. The projects are small, but they have helped me understand 
+            a little more about how this tool that we all use every day called the Internet works.
+          </p>
+          <p>
+            This website has been a challenge for me, considering that I am mostly self-taught 
+            but I have learned a lot and I hope in the future to create tools that can help 
+            solve real-life problems.
+          </p>
+          <p>
+            If you want to know a little more about me, here is my resume and if you have any 
+            questions, do not hesitate to send me a message through the contact section. Thank you
+            very much for visiting!
+          </p>
+          <div class="btn inner">
+            <a href="./content/Alfredo Fajardo Cv2020.pdf" target="_blank">Download CV</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--PORTFOLIO-->
+    <section id="portfolio" class="inactive">
+      <div class="content">
+        <div class="title">
+          <p>Latests Proyects</p>
+          <h1>Portfolio</h1>
+        </div>
+        <div class="outer">
+          <div class="inner sprite-container">
+            <div class="sprite"></div>
+          </div>
+        </div>
+        <div class="description">
+          <p>
+            Hi there! Welcome to my portfolio section. Here you will find some of the projects
+            that I've worked on since I started in this exciting adventure of becoming
+            a web developer. You can also visit my github repository for more or my codepen profile,
+            where you can find little experiments like the one above this text. I hope you enjoy! 
+          </p>
+        </div>
+        
+        <!--PORTFOLIO ICONS-->
+        <div class="portfolio-icons">
+          <div class="btn inner">
+            <a href="https://github.com/Niroh09" target="_blank">Github</a>
+          </div>
+          <div class="btn inner">
+            <a href="https://codepen.io/Niroh09" target="_blank">Codepen</a>
+          </div>
+        </div>
+
+        <!--PORTFOLIO CONTENT-->
+        <div class="portfolio-items">
+        <!--HTML/CSS items-->
+          <div class="card-container inner">
+            <div class="card-img">
+              <img src="./img/Portfolio/anversi.png" alt="anversi project image">
+            </div>
+            <div class="card-description">
+              <div class="description">
+                <h3>Html/css</h3>
+                <p>
+                  Anversi is a responsive static web page created using only Html and Css.
+                  This project was my first aproach to Html/Css.                  
+                </p>
+                <a href="https://niroh09.github.io/anversi/" target="_blank">Try It Yourself</a>
+              </div>
+              <div class="card-title">
+                <h2>Anversi</h2>
+              </div>
+              <div class="card-btn">
+                <div class="arrow"></div>
+              </div>
+            </div>
+          </div>
+
+          <!--Javasctipt items-->  
+          <div class="card-container inner">
+            <div class="card-img">
+              <img src="./img/Portfolio/pokemon.png" alt="pokemon-starter project image">
+            </div>
+            <div class="card-description">
+              <div class="description">
+                <h3>Html/Css, Javasctipt</h3>
+                <p>
+                  Choose your starter Pokemon! I made this project to learn how to
+                  use Javasctipt to make a page interactive.
+                </p>
+                <a href="https://choose-your-starter.netlify.app/" target="_blank">Try It Yourself</a>
+              </div>
+              <div class="card-title">
+                <h2>Starter Pokemon</h2>
+              </div>
+              <div class="card-btn">
+                <div class="arrow"></div>
+              </div>
+            </div>
+          </div>
+            
+          <div class="card-container inner">
+            <div class="card-img">
+              <img src="./img/Portfolio/snake.png" alt="snake game project image">
+            </div>
+            <div class="card-description">
+              <div class="description">
+                <h3>Html/Css, Javasctipt</h3>
+                <p>
+                  Use the arrow keys to play the legendary Snake game. This is a simple proyect
+                  made with Html, Css and Js.
+                </p>
+                <a href="https://my-snake-game-js.netlify.app/" target="_blank">Try It Yourself</a>
+              </div>
+              <div class="card-title">
+                <h2>Snake Game</h2>
+              </div>
+              <div class="card-btn">
+                <div class="arrow"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-container inner">
+            <div class="card-img">
+              <img src="./img/Portfolio/reaper.png" alt="snake game project image">
+            </div>
+            <div class="card-description">
+              <div class="description">
+                <h3>Html/Css, Javasctipt</h3>
+                <p>
+                  This is an interesting effect made with HTML canvas, CSS and Javascript (no libraries used).
+                </p>
+                <a href="https://niroh09.github.io/GrimReaperParticles/" target="_blank">Try It Yourself</a>
+              </div>
+              <div class="card-title">
+                <h2>Particles Effect</h2>
+              </div>
+              <div class="card-btn">
+                <div class="arrow"></div>
+              </div>
+            </div>
+          </div>
+
+          <!--React items-->
+          <div class="card-container inner">
+            <div class="card-img">
+              <img src="./img/Portfolio/jamming.png" alt="jamming project image">
+            </div>
+            <div class="card-description">
+              <div class="description">
+                <h3>React</h3>
+                <p>
+                  Start Jamming and create your own playlist for your Spotify account with this app.
+                </p>
+                <a href="https://jamming-hall.surge.sh/" target="_blank">Try It Yourself</a>
+              </div>
+              <div class="card-title">
+                <h2>Spotify List</h2>
+              </div>
+              <div class="card-btn">
+                <div class="arrow"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-container inner">
+            <div class="card-img">
+              <img src="./img/Portfolio/react-contact.png" alt="react contacts project image">
+            </div>
+            <div class="card-description">
+              <div class="description">
+                <h3>React</h3>
+                <p>
+                  Add your contacts and register your appointments. This proyect helped me understand
+                  better how React.js works.
+                
+                </p>
+                <a href="https://react-contacts-book.netlify.app/" target="_blank">Try It Yourself</a>
+              </div>
+              <div class="card-title">
+                <h2>My Appointments</h2>
+              </div>
+              <div class="card-btn">
+                <div class="arrow"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-container inner">
+            <div class="card-img">
+              <img src="./img/Portfolio/shoppingcart.png" alt="shopping cart project image">
+            </div>
+            <div class="card-description">
+              <div class="description">
+                <h3>React</h3>
+                <p>
+                  Add as many items to the cart as you want! This project was made to help me learn
+                  more about React.js and styled components.
+                </p>
+                <a href="https://my-first-react-shopping-cart.netlify.app/" target="_blank">Try It Yourself</a>
+              </div>
+              <div class="card-title">
+                <h2>Shopping Cart</h2>
+              </div>
+              <div class="card-btn">
+                <div class="arrow"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-container inner">
+            <div class="card-img">
+              <img src="./img/Portfolio/interestCalculator.png" alt="interest calculator proyect image">
+            </div>
+            <div class="card-description">
+              <div class="description">
+                <h3>React</h3>
+                <p>
+                  A simple app that calculates the balance by indicating the initial deposit, 
+                  anual contribution and interest rate.
+                </p>
+                <a href="https://styledcomponents-interestcalculator.netlify.app/" target="_blank">Try It Yourself</a>
+              </div>
+              <div class="card-title">
+                <h2>Interest Calculator</h2>
+              </div>
+              <div class="card-btn">
+                <div class="arrow"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-container inner">
+            <div class="card-img">
+              <img src="./img/Portfolio/tictactoe.png" alt="tictactoe proyect image">
+            </div>
+            <div class="card-description">
+              <div class="description">
+                <h3>React</h3>
+                <p>
+                  The clasic tic-tac-toe game! This was my first aproach to React.js.
+                </p>
+                <a href="https://my-tictactoe-react.netlify.app/" target="_blank">Try It Yourself</a>
+              </div>
+              <div class="card-title">
+                <h2>Tic-tac-toe</h2>
+              </div>
+              <div class="card-btn">
+                <div class="arrow"></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!--CONTACT-->
+    <section id="contact" class="inactive">
+      <div class="form-container">
+        <div class="form">
+          <div class="contact-info">
+            <h3 class="title">Let's get in touch</h3>
+            <p class="text">Thank you very much for visiting my website! If you want to get 
+              in touch with me, please feel free to leave a message and I'll contact you as 
+              soon as possible! 
+            </p>
+        
+            <div class="info">
+              <div class="information">
+                <p>You can also check-out my Linkedin profile by clicking the logo down below.</p>
+              </div>
+            </div>
+
+        
+            <div class="social-media">
+              <p>Connect with me: </p>
+              <div class="social-icons">
+                <a href="#">
+                  <img src="./img/linkedin.png" alt="">
+                </a>
+              </div>
+            </div>
+        
+          </div>
+        
+          <div class="contact-form">
+            <span class="circle one"></span>
+            <span class="circle two"></span>
+            <form action="POST" data-netlify="true">
+              <h3 class="form-title">Contact Me</h3>
+              <div class="input-container">
+                <input type="text" name="name" class="input">
+                <label for="">Username</label>
+                <span>Username</span>
+              </div>
+              <div class="input-container">
+                <input type="email" name="email" class="input">
+                <label for="">Email</label>
+                <span>Email</span>
+              </div>
+              <div class="input-container">
+                <input type="tel" name="phone" class="input">
+                <label for="">Phone</label>
+                <span>Phone</span>
+              </div>
+              <div class="input-container textarea">
+                <textarea name="message" class="input"></textarea>
+                <label for="">Message</label>
+                <span>Message</span>
+              </div>
+              <div class="input-container">
+                <div data-netlify-recaptcha="true"></div>
+              </div>
+              <input type="submit" value="Send" class="form-btn">
+            </form>
+        
+          </div>
+        </div>
+      </div>
+    
+
+
+
+
+    </section>
+  </main>
+</body>
+<script src="index.js"></script>
+</html>
