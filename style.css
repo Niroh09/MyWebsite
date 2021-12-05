@@ -166,7 +166,7 @@ nav.open .links{
   .site-logo:hover span {
     transform: translate(-50%, -50%) rotate(-180deg);
   }
-  
+
   .links {
     display: initial;
     position: relative;
@@ -549,7 +549,7 @@ section {
   height: 152px;
   margin: auto;
   display: block;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
 }
 
 .card-description .description p {
