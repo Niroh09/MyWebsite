@@ -761,6 +761,10 @@ form {
   margin: 1rem 0;
 }
 
+.input-container.recaptcha {
+  width: 190px;
+}
+
 .input {
   width: 100%;
   outline: none;
@@ -867,6 +871,8 @@ textarea.input {
   width: 50%;
   opacity: 1;
 }
+
+
 
 @media screen and (min-width: 768px) {
   .form-container {
